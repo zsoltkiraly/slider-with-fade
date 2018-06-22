@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>Slider with fade v1.0.8 by Zsolt Kiraly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Slider with fade <span>JavaScript Slider with fade v1.0.8 by Zsolt Kiraly</span></h1>
+    </header>
+
+    <section class="basic-content">
+        <h2>Sed et volutpat ligula</h2>
+        <p>Donec quis lorem sit amet tortor varius consectetur. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum quam diam, sit amet iaculis ex commodo id. Maecenas vitae finibus massa. Suspendisse potenti. Donec pulvinar nunc ut elit porttitor mattis.</p>
+
+        <p>Cras non arcu quis turpis lacinia suscipit et a purus. Mauris eu maximus massa. Nam sed vestibulum orci, ut cursus neque. Fusce eget dui eros. Mauris dictum lacus a eros fermentum, eu fringilla elit scelerisque. Sed et varius mauris. Pellentesque in ligula a mi lobortis rutrum. Vestibulum ac pretium nulla. Pellentesque tempor augue at purus tincidunt, maximus semper nisl blandit.</p>
+
+        <p>Mauris fermentum elementum urna, sed blandit metus elementum at. Nullam ac dui non orci volutpat lobortis in quis libero. Duis dignissim rutrum leo ac mollis. Sed et volutpat ligula, sollicitudin porttitor elit. Maecenas faucibus molestie mauris, ut efficitur lorem placerat a.</p>
+    </section>
+
+    <section id="slider-with-fade-1" class="slider-with-fade">
+        <div class="slider-fade loading show">
+            <ul class="slided-container">
+
+                <li style="background-image: url(images/1.jpg);" class="active" data-id="1">
+                    <article>
+                        <div class="polygon"><svg preserveAspectRatio="none" viewBox="0 0 100 100"><polygon points="0,100 100,100 0,0" opacity="1"></polygon></svg></div>
+                        <div class="content">
+                            <h2>Nam faucibus maximus</h2>
+                            <p>Nam quis turpis maximus, rhoncus enim sit amet, imperdiet libero. Integer commodo viverra nisl.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>
+                </li>
+
+                <li style="background-image: url(images/2.jpg);" data-id="2">
+                    <article>
+                        <div class="polygon"><svg preserveAspectRatio="none" viewBox="0 0 100 100"><polygon points="0,100 100,100 0,0" opacity="1"></polygon></svg></div>
+                        <div class="content">
+                            <h2>Interdum et malesuada</h2>
+                            <p>Donec ac sapien sed lacus gravida interdum. Class aptent taciti sociosqu ad litora torquent.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>  
+                </li>
+
+                <li style="background-image: url(images/3.jpg);" data-id="3">
+                    <article>
+                        <div class="polygon"><svg preserveAspectRatio="none" viewBox="0 0 100 100"><polygon points="0,100 100,100 0,0" opacity="1"></polygon></svg></div>
+                        <div class="content">
+                            <h2>Nullam turpis orci</h2>
+                            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce cursus ex vel ipsum faucibus.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article> 
+                </li>
+
+                <li style="background-image: url(images/4.jpg);" data-id="4">
+                    <article>
+                        <div class="polygon"><svg preserveAspectRatio="none" viewBox="0 0 100 100"><polygon points="0,100 100,100 0,0" opacity="1"></polygon></svg></div>
+                        <div class="content">
+                            <h2>Integer commodo viverra</h2>
+                            <p>Nam quis turpis maximus, rhoncus enim sit amet, imperdiet libero. Integer commodo viverra nisl.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>
+                </li>
+
+            </ul>
+        </div> 
+    </section>
+    
+    <script type="text/javascript">
+        sliderWithFade.app(
+            config = {
+
+                contentBox: 'slider-with-fade-1',
+                transition: 500,
+                autoplay: false,
+                autoplayTime: 5000
+
+            }
+        );
+    </script>
+
+    <section class="basic-content">
+        <h2>Sed et volutpat ligula</h2>
+        <p>Donec quis lorem sit amet tortor varius consectetur. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum quam diam, sit amet iaculis ex commodo id. Maecenas vitae finibus massa. Suspendisse potenti. Donec pulvinar nunc ut elit porttitor mattis.</p>
+
+        <p>Cras non arcu quis turpis lacinia suscipit et a purus. Mauris eu maximus massa. Nam sed vestibulum orci, ut cursus neque. Fusce eget dui eros. Mauris dictum lacus a eros fermentum, eu fringilla elit scelerisque. Sed et varius mauris. Pellentesque in ligula a mi lobortis rutrum. Vestibulum ac pretium nulla. Pellentesque tempor augue at purus tincidunt, maximus semper nisl blandit.</p>
+
+        <p>Mauris fermentum elementum urna, sed blandit metus elementum at. Nullam ac dui non orci volutpat lobortis in quis libero. Duis dignissim rutrum leo ac mollis. Sed et volutpat ligula, sollicitudin porttitor elit. Maecenas faucibus molestie mauris, ut efficitur lorem placerat a.</p>
+    </section>
+
+    <section id="slider-with-fade-2" class="slider-with-fade">
+        <div class="slider-fade loading show">
+            <ul class="slided-container">
+
+                <li style="background-image: url(images/4.jpg);" data-id="4">
+                    <article>
+                        <div class="polygon"><svg preserveAspectRatio="none" viewBox="0 0 100 100"><polygon points="0,100 100,100 0,0" opacity="1"></polygon></svg></div>
+                        <div class="content">
+                            <h2>Integer commodo viverra</h2>
+                            <p>Nam quis turpis maximus, rhoncus enim sit amet, imperdiet libero. Integer commodo viverra nisl.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>
+                </li>
+
+                <li style="background-image: url(images/3.jpg);" data-id="3">
+                    <article>
+                        <div class="polygon"><svg preserveAspectRatio="none" viewBox="0 0 100 100"><polygon points="0,100 100,100 0,0" opacity="1"></polygon></svg></div>
+                        <div class="content">
+                            <h2>Nullam turpis orci</h2>
+                            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce cursus ex vel ipsum faucibus.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article> 
+                </li>
+
+                <li style="background-image: url(images/1.jpg);" class="active" data-id="1">
+                    <article>
+                        <div class="polygon"><svg preserveAspectRatio="none" viewBox="0 0 100 100"><polygon points="0,100 100,100 0,0" opacity="1"></polygon></svg></div>
+                        <div class="content">
+                            <h2>Nam faucibus maximus</h2>
+                            <p>Nam quis turpis maximus, rhoncus enim sit amet, imperdiet libero. Integer commodo viverra nisl.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>
+                </li>
+
+                <li style="background-image: url(images/2.jpg);" data-id="2">
+                    <article>
+                        <div class="polygon"><svg preserveAspectRatio="none" viewBox="0 0 100 100"><polygon points="0,100 100,100 0,0" opacity="1"></polygon></svg></div>
+                        <div class="content">
+                            <h2>Interdum et malesuada</h2>
+                            <p>Donec ac sapien sed lacus gravida interdum. Class aptent taciti sociosqu ad litora torquent.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>  
+                </li>
+
+            </ul>
+        </div> 
+    </section>
+    
+    <script type="text/javascript">
+        sliderWithFade.app(
+            config = {
+
+                contentBox: 'slider-with-fade-2',
+                transition: 1500,
+                autoplay: true,
+                autoplayTime: 5000
+
+            }
+        );
+    </script>
+
+    <section class="basic-content">
+        <h2>Sed et volutpat ligula</h2>
+        <p>Donec quis lorem sit amet tortor varius consectetur. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum quam diam, sit amet iaculis ex commodo id. Maecenas vitae finibus massa. Suspendisse potenti. Donec pulvinar nunc ut elit porttitor mattis.</p>
+
+        <p>Cras non arcu quis turpis lacinia suscipit et a purus. Mauris eu maximus massa. Nam sed vestibulum orci, ut cursus neque. Fusce eget dui eros. Mauris dictum lacus a eros fermentum, eu fringilla elit scelerisque. Sed et varius mauris. Pellentesque in ligula a mi lobortis rutrum. Vestibulum ac pretium nulla. Pellentesque tempor augue at purus tincidunt, maximus semper nisl blandit.</p>
+
+        <p>Mauris fermentum elementum urna, sed blandit metus elementum at. Nullam ac dui non orci volutpat lobortis in quis libero. Duis dignissim rutrum leo ac mollis. Sed et volutpat ligula, sollicitudin porttitor elit. Maecenas faucibus molestie mauris, ut efficitur lorem placerat a.</p>
+    </section>
+
+    <footer>
+        <span>GitHub:</span> <a href="https://github.com/zsoltkiraly" title="GitHub" target="_blank">https://github.com/zsoltkiraly</a>
+    </footer>
+
+</body>
+</html>
