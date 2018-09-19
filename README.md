@@ -1,7 +1,7 @@
 # Slider with fade v1.0.8
 
 <br />
-<a href="http://zsoltkiraly.com/developments/slider-with-fade/" target="_blank">DEMO PAGE</a>
+<a href="https://zsoltkiraly.com/developments/slider-with-fade/" target="_blank">DEMO PAGE</a>
 
 #
 <br />
