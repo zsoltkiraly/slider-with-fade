@@ -3,6 +3,29 @@ Slider with fade - Code by Zsolt Király
 v1.0.8 - 2018-04-05
 */
 
+function signatura() {
+    if (window['console']) {
+        const text = {
+            black: '%c     ',
+            blue: '%c   ',
+            author: '%c  Zsolt Király  ',
+            github: '%c  https://zsoltkiraly.com/'
+        }
+
+        const style = {
+            black: 'background: #282c34',
+            blue: 'background: #61dafb',
+            author: 'background: black; color: white',
+            github: ''
+        }
+
+        console.log(text.black + text.blue + text.author + text.github, style.black, style.blue, style.author, style.github);
+    }
+}
+
+signatura();
+
+'use strict';
 var sliderWithFade = function() {
 
     function slideComponente(sF, sE) {
@@ -69,7 +92,6 @@ var sliderWithFade = function() {
 
     function zIndex(el2, el3) {
 
-        //Multiple class (classList.add('z-index-4', 'active') not working).
         el2.classList.remove('z-index-4');
         el2.classList.remove('active');
         el3.classList.add('z-index-4');
@@ -77,6 +99,7 @@ var sliderWithFade = function() {
     }
 
     function navigationDOM(sF) {
+        
         var navigationLeft = document.createElement('NAV');
         navigationLeft.setAttribute('class', 'navigation');
         sF.appendChild(navigationLeft);

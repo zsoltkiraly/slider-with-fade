@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8">
 
-    <link rel="stylesheet" href="css/demo.css">
+    <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" href="css/main.css">
-
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.min.js"></script>
 </head>
 
 <body>
@@ -81,16 +80,12 @@
     
     <script type="text/javascript">
         window.addEventListener('load', function() {
-            sliderWithFade.app(
-                config = {
-
-                    contentBox: 'slider-with-fade-1',
-                    transition: 500,
-                    autoplay: false,
-                    autoplayTime: 5000
-
-                }
-            );
+            sliderWithFade.app({
+                contentBox: 'slider-with-fade-1',
+                transition: 500,
+                autoplay: false,
+                autoplayTime: 5000
+            });
         }, false);
     </script>
 
@@ -157,16 +152,12 @@
     
     <script type="text/javascript">
         window.addEventListener('load', function() {
-            sliderWithFade.app(
-                config = {
-
-                    contentBox: 'slider-with-fade-2',
-                    transition: 1500,
-                    autoplay: true,
-                    autoplayTime: 5000
-
-                }
-            );
+            sliderWithFade.app({
+                contentBox: 'slider-with-fade-2',
+                transition: 1500,
+                autoplay: true,
+                autoplayTime: 5000
+            });
         }, false);
     </script>
 
